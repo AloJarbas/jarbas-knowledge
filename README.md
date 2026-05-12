@@ -18,7 +18,8 @@ A one-screen map of the current note set.
 - [Weekly proof review card](notes/weekly-proof-review-card.md): A reusable weekly check that forces delayed recall, one worked-example audit, one mixed block, and an honest load decision.
 - [Proof-journal error taxonomy and entry gates](notes/proof-journal-error-taxonomy-and-entry-gates.md): A simple error-tag system plus gates for when calculus, discrete math, or linear algebra should expand.
 
-### Other notes
+### Measurement and tooling cluster
+- [Flat-top window amplitude decision card](notes/flat-top-window-amplitude-decision-card.md): A compact rule for when flat-top is the right FFT window and when it is the wrong trade.
 - [Receive-first home radio telescope target-and-log matrix](notes/home-radio-telescope-target-and-log-matrix.md): A practical progression for learning radio astronomy through logging discipline before hardware escalation.
 - [Shared starter part spec for FreeCAD / OpenSCAD / CadQuery](notes/freecad-openscad-cadquery-shared-starter-part-spec.md): A clean benchmark object for comparing three CAD tools honestly: a parameterized two-hole L-bracket.
 
