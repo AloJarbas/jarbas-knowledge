@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#081018"/>
+    <stop offset="100%" stop-color="#101d2a"/>
+  </linearGradient>
+  <style>
+    .title { font: 700 34px Helvetica, Arial, sans-serif; fill: #e6edf3; }
+    .subtitle { font: 500 18px Helvetica, Arial, sans-serif; fill: #9fb3c8; }
+    .cluster { font: 700 21px Helvetica, Arial, sans-serif; fill: #dce7f3; }
+    .note { font: 600 17px Helvetica, Arial, sans-serif; fill: #e6edf3; }
+    .small { font: 500 14px Helvetica, Arial, sans-serif; fill: #9fb3c8; }
+  </style>
+</defs>
+<rect width="1280" height="820" fill="url(#bg)"/>
+<text x="60" y="60" class="title" text-anchor="start">Jarbas Knowledge map</text>
+<text x="60" y="92" class="subtitle" text-anchor="start">Four notes, three clusters, one quick picture of what this repo is actually for.</text>
+<rect x="70" y="160" width="340" height="230" rx="18" fill="#132231" stroke="#5e7fa3" stroke-width="2"/>
+<rect x="470" y="160" width="340" height="230" rx="18" fill="#132231" stroke="#5e7fa3" stroke-width="2"/>
+<rect x="870" y="160" width="340" height="230" rx="18" fill="#132231" stroke="#5e7fa3" stroke-width="2"/>
+<text x="100" y="200" class="cluster" text-anchor="start">Math self-study</text>
+<text x="500" y="200" class="cluster" text-anchor="start">Radio and measurement</text>
+<text x="900" y="200" class="cluster" text-anchor="start">CAD and scientific tooling</text>
+<rect x="95" y="235" width="290" height="58" rx="14" fill="#1d3043" stroke="#6f8db0" stroke-width="2"/>
+<rect x="95" y="312" width="290" height="58" rx="14" fill="#1d3043" stroke="#6f8db0" stroke-width="2"/>
+<rect x="495" y="255" width="290" height="58" rx="14" fill="#1d3043" stroke="#6f8db0" stroke-width="2"/>
+<rect x="895" y="255" width="290" height="58" rx="14" fill="#1d3043" stroke="#6f8db0" stroke-width="2"/>
+<text x="115" y="270" class="note" text-anchor="start">Proof-method cue card</text>
+<text x="115" y="347" class="note" text-anchor="start">Proof-study loop</text>
+<text x="515" y="290" class="note" text-anchor="start">Home radio telescope target/log matrix</text>
+<text x="915" y="290" class="note" text-anchor="start">Shared starter part spec</text>
+<text x="115" y="288" class="small" text-anchor="start">First-move method selection under proof pressure.</text>
+<text x="115" y="365" class="small" text-anchor="start">Retrieval, worked examples, interleaving.</text>
+<text x="515" y="308" class="small" text-anchor="start">Learn radio astronomy through logging discipline first.</text>
+<text x="915" y="308" class="small" text-anchor="start">A common benchmark object across three CAD stacks.</text>
+<line x1="400" y1="498" x2="640" y2="498" stroke="#6f8db0" stroke-width="4" opacity="0.9"/>
+<line x1="640" y1="498" x2="880" y2="498" stroke="#6f8db0" stroke-width="4" opacity="0.9"/>
+<line x1="640" y1="390" x2="640" y2="498" stroke="#6f8db0" stroke-width="4" opacity="0.9"/>
+<rect x="470" y="520" width="340" height="170" rx="18" fill="#142536" stroke="#5e7fa3" stroke-width="2"/>
+<text x="500" y="560" class="cluster" text-anchor="start">Repo shape</text>
+<text x="500" y="596" class="note" text-anchor="start">Keep only notes that travel well on their own.</text>
+<text x="500" y="624" class="small" text-anchor="start">Each note should still make sense outside the private workspace.</text>
+<text x="500" y="650" class="small" text-anchor="start">That is the filter: compact, reusable, worth reopening.</text>
+<text x="60" y="770" class="small" text-anchor="start">This is a map, not a taxonomy. The point is fast orientation, not decorative complexity.</text>
+</svg>
