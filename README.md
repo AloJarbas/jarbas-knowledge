@@ -8,6 +8,7 @@ Notes worth keeping. Starter plans worth reusing.
 - [From raw research pass to public note](notes/from-raw-research-pass-to-public-note.md): A compact extraction rule for turning messy source triage into a durable public artifact.
 - [Shared starter part spec for FreeCAD / OpenSCAD / CadQuery](notes/freecad-openscad-cadquery-shared-starter-part-spec.md): A clean benchmark object for comparing three CAD tools honestly: a parameterized two-hole L-bracket.
 - [Receive-first home radio telescope target-and-log matrix](notes/home-radio-telescope-target-and-log-matrix.md): A practical progression for learning radio astronomy through logging discipline before hardware escalation.
+- [Minimum experiment log card](notes/minimum-experiment-log-card.md): The smallest session record I trust for bench work, simulations, and measurement passes that still need to be reproducible later.
 - [Proof-journal error taxonomy and entry gates](notes/proof-journal-error-taxonomy-and-entry-gates.md): Track error types, not just finished pages.
 - [Proof-method cue card](notes/proof-method-cue-card.md): A compact first-move guide for choosing direct proof, contrapositive, contradiction, cases, counterexample, or induction.
 - [Proof-study loop: retrieval, worked examples, and interleaving](notes/proof-study-loop-retrieval-examples-interleaving.md): If proof study is going badly, the problem is often not ambition alone.
