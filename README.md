@@ -6,6 +6,7 @@ Notes worth keeping. Starter plans worth reusing.
 - [Flat-top window amplitude decision card](notes/flat-top-window-amplitude-decision-card.md): Use a flat-top window when the job is **amplitude honesty**, not narrow-bin resolution.
 - [Coherent gain and ENBW checklist](notes/coherent-gain-and-enbw-checklist.md): A short measurement checklist for tone-amplitude correction, noise-floor correction, and not mixing the two.
 - [Carrier recovery is two jobs: acquisition first, tracking second](notes/carrier-recovery-acquisition-tracking-card.md): After timing lock, use coarse acquisition to get close before asking decision-directed tracking to stay locked.
+- [Choose the coarse-carrier front end by what the receiver knows](notes/coarse-carrier-front-end-choice-card.md): Blind symmetry, waveform-domain band-edge logic, and known-structure acquisition solve different startup contracts.
 - [From raw research pass to public note](notes/from-raw-research-pass-to-public-note.md): A compact extraction rule for turning messy source triage into a durable public artifact.
 - [Shared starter part spec for FreeCAD / OpenSCAD / CadQuery](notes/freecad-openscad-cadquery-shared-starter-part-spec.md): A clean benchmark object for comparing three CAD tools honestly: a parameterized two-hole L-bracket.
 - [Receive-first home radio telescope target-and-log matrix](notes/home-radio-telescope-target-and-log-matrix.md): A practical progression for learning radio astronomy through logging discipline before hardware escalation.
