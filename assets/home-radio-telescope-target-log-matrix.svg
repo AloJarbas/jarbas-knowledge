@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1560 1140" width="1560" height="1140">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#08111b"/>
+    <stop offset="100%" stop-color="#0f1c2b"/>
+  </linearGradient>
+  <style>
+    .title { font: 700 34px Helvetica, Arial, sans-serif; fill: #e2e8f0; }
+    .subtitle { font: 500 17px Helvetica, Arial, sans-serif; fill: #a8bdd2; }
+    .header { font: 700 14px Helvetica, Arial, sans-serif; fill: #dbe7f4; }
+    .lane { font: 700 16px Helvetica, Arial, sans-serif; fill: #f8fafc; }
+    .stage { font: 700 15px Helvetica, Arial, sans-serif; fill: #eff6ff; }
+    .cell { font: 500 13px Helvetica, Arial, sans-serif; fill: #cbd5e1; }
+    .side-title { font: 700 20px Helvetica, Arial, sans-serif; fill: #e2e8f0; }
+    .side-body { font: 500 13px Helvetica, Arial, sans-serif; fill: #cbd5e1; }
+    .small { font: 500 12px Helvetica, Arial, sans-serif; fill: #94a3b8; }
+  </style>
+</defs>
+<rect width="1560" height="1140" fill="url(#bg)"/>
+<text x="56.0" y="58.0" class="title" text-anchor="start">Receive-first home radio telescope target-and-log matrix</text>
+<text x="56.0" y="88.0" class="subtitle" text-anchor="start"><tspan x="56.0" dy="0">Learn event morphology, keep one logging stack steady, and climb from easy natural signals to harder ones.</tspan><tspan x="56.0" dy="22">Treat installation, calibration hardware, and outdoor escalation as later approval-gated branches, not the day-one plan.</tspan></text>
+<rect x="56.0" y="128.0" width="1148.0" height="840.0" rx="22.0" fill="#122030" stroke="#324861" stroke-width="2.0"/>
+<rect x="1232.0" y="128.0" width="272.0" height="362.0" rx="22.0" fill="#122030" stroke="#324861" stroke-width="2.0"/>
+<rect x="1232.0" y="520.0" width="272.0" height="196.0" rx="22.0" fill="#122030" stroke="#324861" stroke-width="2.0"/>
+<rect x="1232.0" y="744.0" width="272.0" height="184.0" rx="22.0" fill="#122030" stroke="#324861" stroke-width="2.0"/>
+<rect x="56.0" y="188.0" width="110.0" height="48.0" rx="12.0" fill="#18283b" stroke="#415a74" stroke-width="2.0"/>
+<text x="70.0" y="218.0" class="header" text-anchor="start">Lane</text>
+<rect x="166.0" y="188.0" width="250.0" height="48.0" rx="12.0" fill="#18283b" stroke="#415a74" stroke-width="2.0"/>
+<text x="180.0" y="218.0" class="header" text-anchor="start">Stage</text>
+<rect x="416.0" y="188.0" width="214.0" height="48.0" rx="12.0" fill="#18283b" stroke="#415a74" stroke-width="2.0"/>
+<text x="430.0" y="218.0" class="header" text-anchor="start">Target class</text>
+<rect x="630.0" y="188.0" width="292.0" height="48.0" rx="12.0" fill="#18283b" stroke="#415a74" stroke-width="2.0"/>
+<text x="644.0" y="218.0" class="header" text-anchor="start">What you are really learning</text>
+<rect x="922.0" y="188.0" width="322.0" height="48.0" rx="12.0" fill="#18283b" stroke="#415a74" stroke-width="2.0"/>
+<text x="936.0" y="218.0" class="header" text-anchor="start">Software / observing mode</text>
+<rect x="1244.0" y="188.0" width="240.0" height="48.0" rx="12.0" fill="#18283b" stroke="#415a74" stroke-width="2.0"/>
+<text x="1258.0" y="218.0" class="header" text-anchor="start">Durable output to keep</text>
+<rect x="56.0" y="248.0" width="1148.0" height="112.0" rx="16.0" fill="#101b29" stroke="#27374b" stroke-width="2.0"/>
+<rect x="66.0" y="260.0" width="90.0" height="88.0" rx="12.0" fill="#1d4ed8" stroke="#1d4ed8" stroke-width="0.0"/>
+<text x="80.0" y="294.0" class="lane" text-anchor="start"><tspan x="80.0" dy="0">Lane 0</tspan></text>
+<text x="180.0" y="276.0" class="stage" text-anchor="start"><tspan x="180.0" dy="0">Remote literacy before</tspan><tspan x="180.0" dy="18">ownership</tspan></text>
+<text x="430.0" y="276.0" class="cell" text-anchor="start"><tspan x="430.0" dy="0">Live or archived solar</tspan><tspan x="430.0" dy="18">/ Jovian examples</tspan></text>
+<text x="644.0" y="276.0" class="cell" text-anchor="start"><tspan x="644.0" dy="0">Event morphology and routine</tspan><tspan x="644.0" dy="18">interference discrimination before</tspan><tspan x="644.0" dy="18">hardware shopping</tspan></text>
+<text x="936.0" y="276.0" class="cell" text-anchor="start"><tspan x="936.0" dy="0">Radio JOVE client mode, archived</tspan><tspan x="936.0" dy="18">spectrograms, other observers&#x27;</tspan><tspan x="936.0" dy="18">captures</tspan></text>
+<text x="1258.0" y="276.0" class="cell" text-anchor="start"><tspan x="1258.0" dy="0">3-5 labeled examples and</tspan><tspan x="1258.0" dy="18">one short pattern</tspan><tspan x="1258.0" dy="18">glossary</tspan></text>
+<rect x="56.0" y="368.0" width="1148.0" height="112.0" rx="16.0" fill="#101b29" stroke="#27374b" stroke-width="2.0"/>
+<rect x="66.0" y="380.0" width="90.0" height="88.0" rx="12.0" fill="#0f766e" stroke="#0f766e" stroke-width="0.0"/>
+<text x="80.0" y="414.0" class="lane" text-anchor="start"><tspan x="80.0" dy="0">Lane 1</tspan></text>
+<text x="180.0" y="396.0" class="stage" text-anchor="start"><tspan x="180.0" dy="0">Compact</tspan><tspan x="180.0" dy="18">receive-and-log habit</tspan></text>
+<text x="430.0" y="396.0" class="cell" text-anchor="start"><tspan x="430.0" dy="0">Modest receive-only</tspan><tspan x="430.0" dy="18">sessions</tspan></text>
+<text x="644.0" y="396.0" class="cell" text-anchor="start"><tspan x="644.0" dy="0">Repeatable session logging beats</tspan><tspan x="644.0" dy="18">heroic aperture on day one</tspan></text>
+<text x="936.0" y="396.0" class="cell" text-anchor="start"><tspan x="936.0" dy="0">Use one stack consistently:</tspan><tspan x="936.0" dy="18">spectrograph if shape matters,</tspan><tspan x="936.0" dy="18">strip-chart if narrow monitoring</tspan><tspan x="936.0" dy="18">matters</tspan></text>
+<text x="1258.0" y="396.0" class="cell" text-anchor="start"><tspan x="1258.0" dy="0">One session template</tspan><tspan x="1258.0" dy="18">with UTC, target, span,</tspan><tspan x="1258.0" dy="18">gain, conditions,</tspan><tspan x="1258.0" dy="18">verdict</tspan></text>
+<rect x="56.0" y="488.0" width="1148.0" height="112.0" rx="16.0" fill="#101b29" stroke="#27374b" stroke-width="2.0"/>
+<rect x="66.0" y="500.0" width="90.0" height="88.0" rx="12.0" fill="#ca8a04" stroke="#ca8a04" stroke-width="0.0"/>
+<text x="80.0" y="534.0" class="lane" text-anchor="start"><tspan x="80.0" dy="0">Lane 2A</tspan></text>
+<text x="180.0" y="516.0" class="stage" text-anchor="start"><tspan x="180.0" dy="0">Solar activity /</tspan><tspan x="180.0" dy="18">ionospheric</tspan><tspan x="180.0" dy="18">disturbance</tspan></text>
+<text x="430.0" y="516.0" class="cell" text-anchor="start"><tspan x="430.0" dy="0">The easiest</tspan><tspan x="430.0" dy="18">alive-check target</tspan><tspan x="430.0" dy="18">class</tspan></text>
+<text x="644.0" y="516.0" class="cell" text-anchor="start"><tspan x="644.0" dy="0">Can the system show obvious bursts</tspan><tspan x="644.0" dy="18">and changing background without</tspan><tspan x="644.0" dy="18">fooling you?</tspan></text>
+<text x="936.0" y="516.0" class="cell" text-anchor="start"><tspan x="936.0" dy="0">Radio-Sky Spectrograph when the</tspan><tspan x="936.0" dy="18">shape matters most</tspan></text>
+<text x="1258.0" y="516.0" class="cell" text-anchor="start"><tspan x="1258.0" dy="0">Save one clear event and</tspan><tspan x="1258.0" dy="18">one false alarm with</tspan><tspan x="1258.0" dy="18">notes</tspan></text>
+<rect x="56.0" y="608.0" width="1148.0" height="112.0" rx="16.0" fill="#101b29" stroke="#27374b" stroke-width="2.0"/>
+<rect x="66.0" y="620.0" width="90.0" height="88.0" rx="12.0" fill="#9333ea" stroke="#9333ea" stroke-width="0.0"/>
+<text x="80.0" y="654.0" class="lane" text-anchor="start"><tspan x="80.0" dy="0">Lane 2B</tspan></text>
+<text x="180.0" y="636.0" class="stage" text-anchor="start"><tspan x="180.0" dy="0">Jupiter decametric</tspan><tspan x="180.0" dy="18">listening</tspan></text>
+<text x="430.0" y="636.0" class="cell" text-anchor="start"><tspan x="430.0" dy="0">Timing-dependent</tspan><tspan x="430.0" dy="18">canonical target</tspan></text>
+<text x="644.0" y="636.0" class="cell" text-anchor="start"><tspan x="644.0" dy="0">Scheduling discipline and</tspan><tspan x="644.0" dy="18">cross-checking candidate events</tspan><tspan x="644.0" dy="18">against other observers</tspan></text>
+<text x="936.0" y="636.0" class="cell" text-anchor="start"><tspan x="936.0" dy="0">Same receive/log stack, but with</tspan><tspan x="936.0" dy="18">stricter timing and comparison</tspan><tspan x="936.0" dy="18">habits</tspan></text>
+<text x="1258.0" y="636.0" class="cell" text-anchor="start"><tspan x="1258.0" dy="0">Candidate clip plus</tspan><tspan x="1258.0" dy="18">comparison verdict</tspan><tspan x="1258.0" dy="18">against other observers&#x27;</tspan><tspan x="1258.0" dy="18">data</tspan></text>
+<rect x="56.0" y="728.0" width="1148.0" height="112.0" rx="16.0" fill="#101b29" stroke="#27374b" stroke-width="2.0"/>
+<rect x="66.0" y="740.0" width="90.0" height="88.0" rx="12.0" fill="#dc2626" stroke="#dc2626" stroke-width="0.0"/>
+<text x="80.0" y="774.0" class="lane" text-anchor="start"><tspan x="80.0" dy="0">Lane 2C</tspan></text>
+<text x="180.0" y="756.0" class="stage" text-anchor="start"><tspan x="180.0" dy="0">Galactic background</tspan><tspan x="180.0" dy="18">comparisons</tspan></text>
+<text x="430.0" y="756.0" class="cell" text-anchor="start"><tspan x="430.0" dy="0">Baseline drift and</tspan><tspan x="430.0" dy="18">directional changes</tspan></text>
+<text x="644.0" y="756.0" class="cell" text-anchor="start"><tspan x="644.0" dy="0">How much of the curve is the sky,</tspan><tspan x="644.0" dy="18">and how much is local baseline</tspan><tspan x="644.0" dy="18">behavior?</tspan></text>
+<text x="936.0" y="756.0" class="cell" text-anchor="start"><tspan x="936.0" dy="0">Simple logging is fine if the</tspan><tspan x="936.0" dy="18">session record stays disciplined</tspan></text>
+<text x="1258.0" y="756.0" class="cell" text-anchor="start"><tspan x="1258.0" dy="0">Paired comparisons with</tspan><tspan x="1258.0" dy="18">local conditions and</tspan><tspan x="1258.0" dy="18">antenna context recorded</tspan></text>
+<rect x="56.0" y="848.0" width="1148.0" height="112.0" rx="16.0" fill="#101b29" stroke="#27374b" stroke-width="2.0"/>
+<rect x="66.0" y="860.0" width="90.0" height="88.0" rx="12.0" fill="#475569" stroke="#475569" stroke-width="0.0"/>
+<text x="80.0" y="894.0" class="lane" text-anchor="start"><tspan x="80.0" dy="0">Lane 3</tspan></text>
+<text x="180.0" y="876.0" class="stage" text-anchor="start"><tspan x="180.0" dy="0">Hydrogen line later</tspan></text>
+<text x="430.0" y="876.0" class="cell" text-anchor="start"><tspan x="430.0" dy="0">Only after the</tspan><tspan x="430.0" dy="18">receive/log habit is</tspan><tspan x="430.0" dy="18">already stable</tspan></text>
+<text x="644.0" y="876.0" class="cell" text-anchor="start"><tspan x="644.0" dy="0">Calibration discipline and slower</tspan><tspan x="644.0" dy="18">interpretation without skipping</tspan><tspan x="644.0" dy="18">the logging lane</tspan></text>
+<text x="936.0" y="876.0" class="cell" text-anchor="start"><tspan x="936.0" dy="0">Treat this as a later branch, not</tspan><tspan x="936.0" dy="18">the first proof of life</tspan></text>
+<text x="1258.0" y="876.0" class="cell" text-anchor="start"><tspan x="1258.0" dy="0">Approval-gated branch</tspan><tspan x="1258.0" dy="18">after the earlier lanes</tspan><tspan x="1258.0" dy="18">are boringly</tspan><tspan x="1258.0" dy="18">reproducible</tspan></text>
+<text x="1248.0" y="160.0" class="side-title" text-anchor="start">Minimal session log</text>
+<rect x="1248.0" y="176.0" width="18.0" height="18.0" rx="5.0" fill="#0f766e" stroke="#0f766e" stroke-width="0.0"/>
+<text x="1278.0" y="190.0" class="side-body" text-anchor="start">UTC start / end</text>
+<rect x="1248.0" y="204.0" width="18.0" height="18.0" rx="5.0" fill="#0f766e" stroke="#0f766e" stroke-width="0.0"/>
+<text x="1278.0" y="218.0" class="side-body" text-anchor="start">target class</text>
+<rect x="1248.0" y="232.0" width="18.0" height="18.0" rx="5.0" fill="#0f766e" stroke="#0f766e" stroke-width="0.0"/>
+<text x="1278.0" y="246.0" class="side-body" text-anchor="start">receiver + software stack</text>
+<rect x="1248.0" y="260.0" width="18.0" height="18.0" rx="5.0" fill="#0f766e" stroke="#0f766e" stroke-width="0.0"/>
+<text x="1278.0" y="274.0" class="side-body" text-anchor="start">frequency span or observing mode</text>
+<rect x="1248.0" y="288.0" width="18.0" height="18.0" rx="5.0" fill="#0f766e" stroke="#0f766e" stroke-width="0.0"/>
+<text x="1278.0" y="302.0" class="side-body" text-anchor="start">gain / key settings</text>
+<rect x="1248.0" y="316.0" width="18.0" height="18.0" rx="5.0" fill="#0f766e" stroke="#0f766e" stroke-width="0.0"/>
+<text x="1278.0" y="330.0" class="side-body" text-anchor="start">antenna context</text>
+<rect x="1248.0" y="344.0" width="18.0" height="18.0" rx="5.0" fill="#0f766e" stroke="#0f766e" stroke-width="0.0"/>
+<text x="1278.0" y="358.0" class="side-body" text-anchor="start">weather or local interference note</text>
+<rect x="1248.0" y="372.0" width="18.0" height="18.0" rx="5.0" fill="#0f766e" stroke="#0f766e" stroke-width="0.0"/>
+<text x="1278.0" y="386.0" class="side-body" text-anchor="start">verdict: noise only / candidate / clear event</text>
+<rect x="1248.0" y="400.0" width="18.0" height="18.0" rx="5.0" fill="#0f766e" stroke="#0f766e" stroke-width="0.0"/>
+<text x="1278.0" y="414.0" class="side-body" text-anchor="start">follow-up: save, compare, or discard</text>
+<text x="1248.0" y="552.0" class="side-title" text-anchor="start">Software implication</text>
+<text x="1248.0" y="580.0" class="side-body" text-anchor="start"><tspan x="1248.0" dy="0">Spectrograph-style viewing when event shape matters.</tspan><tspan x="1248.0" dy="20">Strip-chart logging when the job is narrow monitoring over time.</tspan><tspan x="1248.0" dy="20">Pick the mode by target class, not by gadget lust.</tspan></text>
+<text x="1248.0" y="776.0" class="side-title" text-anchor="start">Approval boundary</text>
+<text x="1248.0" y="806.0" class="side-body" text-anchor="start"><tspan x="1248.0" dy="0">Not in scope here:</tspan><tspan x="1248.0" dy="20">transmission, mast work, outdoor installation,</tspan><tspan x="1248.0" dy="20">grounding work, or calibration hardware build.</tspan><tspan x="1248.0" dy="20">Those stay later and approval-gated.</tspan></text>
+<text x="56.0" y="1088.0" class="small" text-anchor="start">Source basis: NASA Radio JOVE getting-started + software pages, plus SARA getting-started guidance.</text>
+<text x="56.0" y="1112.0" class="small" text-anchor="start">This is a target ladder and logging matrix, not a hardware bill of materials.</text>
+</svg>

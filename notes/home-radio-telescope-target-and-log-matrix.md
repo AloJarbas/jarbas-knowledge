@@ -13,6 +13,12 @@ The safest and most cumulative first lane is not “buy hardware, then see what 
 3. move from easy natural signals to harder ones,
 4. treat calibration hardware and outdoor installation as later, approval-gated branches.
 
+## Visual summary
+
+![Receive-first home radio telescope target-and-log matrix](../assets/home-radio-telescope-target-log-matrix.png)
+
+Use the card as a route map, not a shopping list. The point is to lock in event recognition and logging discipline before the project starts pretending hardware escalation is the same thing as learning.
+
 ## Target ladder
 
 ### Lane 0 — remote literacy before ownership
