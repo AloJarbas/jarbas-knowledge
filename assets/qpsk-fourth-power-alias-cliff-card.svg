@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" width="1600" height="1600">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#08111b"/>
+    <stop offset="100%" stop-color="#0f1c2b"/>
+  </linearGradient>
+  <style>
+    .title { font: 700 36px Helvetica, Arial, sans-serif; fill: #e2e8f0; }
+    .subtitle { font: 500 18px Helvetica, Arial, sans-serif; fill: #b9cadb; }
+    .label { font: 700 20px Helvetica, Arial, sans-serif; fill: #e2e8f0; }
+    .body { font: 500 16px Helvetica, Arial, sans-serif; fill: #cbd5e1; }
+    .small { font: 500 14px Helvetica, Arial, sans-serif; fill: #cbd5e1; }
+    .tiny { font: 500 13px Helvetica, Arial, sans-serif; fill: #94a3b8; }
+  </style>
+</defs>
+<rect width="1600" height="1600" fill="url(#bg)"/>
+<rect x="26.0" y="26.0" width="1548.0" height="1548.0" rx="28.0" fill="#0d1826" opacity="1.0" stroke="#223246" stroke-width="2.0"/>
+<text x="64.0" y="66.0" class="title" text-anchor="start">QPSK 4th-power coarse recovery has a hard alias cliff at π/4</text>
+<text x="64.0" y="102.0" class="subtitle" text-anchor="start"><tspan x="64.0" dy="0">For symbol-rate QPSK, treat ±π/4 as a real trust boundary for the blind 4th-power estimate.</tspan><tspan x="64.0" dy="24">Past that cliff, a tidy-looking post-loop constellation is not strong evidence that the payload labels survived.</tspan></text>
+<rect x="64.0" y="154.0" width="1472.0" height="486.0" rx="24.0" fill="#122030" opacity="1.0" stroke="#324861" stroke-width="2.0"/>
+<rect x="64.0" y="678.0" width="470.0" height="360.0" rx="22.0" fill="#122030" opacity="1.0" stroke="#324861" stroke-width="2.0"/>
+<rect x="564.0" y="678.0" width="470.0" height="360.0" rx="22.0" fill="#122030" opacity="1.0" stroke="#324861" stroke-width="2.0"/>
+<rect x="1064.0" y="678.0" width="472.0" height="360.0" rx="22.0" fill="#122030" opacity="1.0" stroke="#324861" stroke-width="2.0"/>
+<rect x="64.0" y="1072.0" width="718.0" height="422.0" rx="22.0" fill="#122030" opacity="1.0" stroke="#324861" stroke-width="2.0"/>
+<rect x="818.0" y="1072.0" width="718.0" height="422.0" rx="22.0" fill="#122030" opacity="1.0" stroke="#324861" stroke-width="2.0"/>
+<text x="90.0" y="194.0" class="label" text-anchor="start">Trust boundary</text>
+<text x="90.0" y="226.0" class="body" text-anchor="start"><tspan x="90.0" dy="0">The only hard number on this card is the alias boundary itself. Everything else below π/4</tspan><tspan x="90.0" dy="22">still depends on loop quality, handoff logic, and what the receiver already knows.</tspan></text>
+<rect x="120.0" y="338.0" width="1360.0" height="220.0" rx="24.0" fill="#0f1724" opacity="1.0" stroke="#334155" stroke-width="2.0"/>
+<rect x="150.0" y="420.0" width="650.0" height="64.0" rx="18.0" fill="#14532d" opacity="1.0" stroke="#14532d" stroke-width="0.0"/>
+<rect x="800.0" y="420.0" width="650.0" height="64.0" rx="18.0" fill="#7f1d1d" opacity="1.0" stroke="#7f1d1d" stroke-width="0.0"/>
+<text x="170.0" y="460.0" class="label" text-anchor="start">honest 4th-power coarse range</text>
+<text x="828.0" y="460.0" class="label" text-anchor="start">wrapped-estimate alias risk</text>
+<line x1="150.0" y1="508.0" x2="1450.0" y2="508.0" stroke="#64748b" stroke-width="3.0" opacity="1.0" stroke-linecap="round"/>
+<line x1="800.0" y1="398.0" x2="800.0" y2="528.0" stroke="#facc15" stroke-width="4.0" opacity="1.0" stroke-linecap="round"/>
+<text x="800.0" y="380.0" class="label" text-anchor="middle">alias cliff  |Δf| / Rₛ = 0.25</text>
+<line x1="150.0" y1="500.0" x2="150.0" y2="516.0" stroke="#94a3b8" stroke-width="2.0" opacity="1.0" stroke-linecap="round"/>
+<text x="150.0" y="542.0" class="small" text-anchor="middle">0.00</text>
+<line x1="410.0" y1="500.0" x2="410.0" y2="516.0" stroke="#94a3b8" stroke-width="2.0" opacity="1.0" stroke-linecap="round"/>
+<text x="410.0" y="542.0" class="small" text-anchor="middle">0.10</text>
+<line x1="670.0" y1="500.0" x2="670.0" y2="516.0" stroke="#94a3b8" stroke-width="2.0" opacity="1.0" stroke-linecap="round"/>
+<text x="670.0" y="542.0" class="small" text-anchor="middle">0.20</text>
+<line x1="800.0" y1="500.0" x2="800.0" y2="516.0" stroke="#94a3b8" stroke-width="2.0" opacity="1.0" stroke-linecap="round"/>
+<text x="800.0" y="542.0" class="small" text-anchor="middle">0.25</text>
+<line x1="930.0" y1="500.0" x2="930.0" y2="516.0" stroke="#94a3b8" stroke-width="2.0" opacity="1.0" stroke-linecap="round"/>
+<text x="930.0" y="542.0" class="small" text-anchor="middle">0.30</text>
+<line x1="1190.0" y1="500.0" x2="1190.0" y2="516.0" stroke="#94a3b8" stroke-width="2.0" opacity="1.0" stroke-linecap="round"/>
+<text x="1190.0" y="542.0" class="small" text-anchor="middle">0.40</text>
+<line x1="1450.0" y1="500.0" x2="1450.0" y2="516.0" stroke="#94a3b8" stroke-width="2.0" opacity="1.0" stroke-linecap="round"/>
+<text x="1450.0" y="542.0" class="small" text-anchor="middle">0.50</text>
+<text x="800.0" y="586.0" class="body" text-anchor="middle">residual carrier offset magnitude  |Δf| / Rₛ</text>
+<text x="90.0" y="624.0" class="small" text-anchor="start">If you are already near lock, the loop may not need blind coarse help at all.</text>
+<text x="90.0" y="650.0" class="small" text-anchor="start">If you still need coarse help but stay inside the green lane, 4th-power acquisition can widen handoff honestly.</text>
+<text x="90.0" y="676.0" class="small" text-anchor="start">The red lane is the warning: beyond π/4, a clean cloud can still carry the wrong labels.</text>
+<text x="88.0" y="714.0" class="label" text-anchor="start">Loop-alone region</text>
+<line x1="88.0" y1="730.0" x2="224.0" y2="730.0" stroke="#0f766e" stroke-width="4.0" opacity="1.0" stroke-linecap="round"/>
+<text x="88.0" y="770.0" class="body" text-anchor="start"><tspan x="88.0" dy="0">• Residual is already near enough to center</tspan><tspan x="88.0" dy="22">that fine tracking may finish the job.</tspan></text>
+<text x="88.0" y="854.0" class="body" text-anchor="start"><tspan x="88.0" dy="0">• This cutoff is receiver-specific. Do not</tspan><tspan x="88.0" dy="22">fake a universal number here.</tspan></text>
+<text x="588.0" y="714.0" class="label" text-anchor="start">Coarse-help region</text>
+<line x1="588.0" y1="730.0" x2="724.0" y2="730.0" stroke="#1d4ed8" stroke-width="4.0" opacity="1.0" stroke-linecap="round"/>
+<text x="588.0" y="770.0" class="body" text-anchor="start"><tspan x="588.0" dy="0">• Inside the honest 4th-power range, blind</tspan><tspan x="588.0" dy="22">coarse correction can pull the residual back</tspan><tspan x="588.0" dy="22">toward the near-lock lane.</tspan></text>
+<text x="588.0" y="854.0" class="body" text-anchor="start"><tspan x="588.0" dy="0">• This is where symbol-rate QPSK symmetry</tspan><tspan x="588.0" dy="22">actually buys something useful.</tspan></text>
+<text x="1088.0" y="714.0" class="label" text-anchor="start">Alias region</text>
+<line x1="1088.0" y1="730.0" x2="1224.0" y2="730.0" stroke="#dc2626" stroke-width="4.0" opacity="1.0" stroke-linecap="round"/>
+<text x="1088.0" y="770.0" class="body" text-anchor="start"><tspan x="1088.0" dy="0">• Past π/4, the same estimator can wrap very</tspan><tspan x="1088.0" dy="22">abruptly to the wrong answer.</tspan></text>
+<text x="1088.0" y="854.0" class="body" text-anchor="start"><tspan x="1088.0" dy="0">• The failure mode can look clean instead of</tspan><tspan x="1088.0" dy="22">noisy. That is why this card exists.</tspan></text>
+<text x="90.0" y="1108.0" class="label" text-anchor="start">Do not trust as proof</text>
+<text x="90.0" y="1150.0" class="body" text-anchor="start"><tspan x="90.0" dy="0">• A tidy-looking post-loop constellation by</tspan><tspan x="90.0" dy="22">itself.</tspan></text>
+<text x="90.0" y="1238.0" class="body" text-anchor="start"><tspan x="90.0" dy="0">• Nearest-point geometry or RMS alone.</tspan></text>
+<text x="90.0" y="1326.0" class="body" text-anchor="start"><tspan x="90.0" dy="0">• The vague feeling that the loop “looks</tspan><tspan x="90.0" dy="22">locked.”</tspan></text>
+<text x="844.0" y="1108.0" class="label" text-anchor="start">Better evidence</text>
+<text x="844.0" y="1150.0" class="body" text-anchor="start"><tspan x="844.0" dy="0">• The coarse estimate stays inside the hard</tspan><tspan x="844.0" dy="22">blind range.</tspan></text>
+<text x="844.0" y="1238.0" class="body" text-anchor="start"><tspan x="844.0" dy="0">• Handoff logic and lock evidence agree with the</tspan><tspan x="844.0" dy="22">coarse estimate.</tspan></text>
+<text x="844.0" y="1326.0" class="body" text-anchor="start"><tspan x="844.0" dy="0">• Decoded labels still make sense after</tspan><tspan x="844.0" dy="22">ambiguity handling, not just after plotting.</tspan></text>
+<text x="64.0" y="1528.0" class="small" text-anchor="start">Source basis: Wireless Pi on M-th-power range limits + Costas near-lock scope, PySDR synchronization framing, and local evidence from costas-loop-lab.</text>
+<text x="64.0" y="1552.0" class="small" text-anchor="start">This is a warning card about blind coarse acquisition scope, not a full loop-tuning guide or a phase-ambiguity tutorial.</text>
+</svg>

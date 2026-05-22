@@ -7,6 +7,7 @@ Notes worth keeping. Starter plans worth reusing.
 - [Coherent gain and ENBW checklist](notes/coherent-gain-and-enbw-checklist.md): A short measurement checklist for tone-amplitude correction, noise-floor correction, and not mixing the two.
 - [Carrier recovery is two jobs: acquisition first, tracking second](notes/carrier-recovery-acquisition-tracking-card.md): After timing lock, use coarse acquisition to get close before asking decision-directed tracking to stay locked.
 - [Choose the coarse-carrier front end by what the receiver knows](notes/coarse-carrier-front-end-choice-card.md): Blind symmetry, waveform-domain band-edge logic, and known-structure acquisition solve different startup contracts.
+- [QPSK 4th-power coarse recovery has a hard alias cliff at `\pi/4`](notes/qpsk-fourth-power-alias-cliff-card.md): A clean-looking constellation just past the blind coarse-acquisition range does not prove the payload is right.
 - [From raw research pass to public note](notes/from-raw-research-pass-to-public-note.md): A compact extraction rule for turning messy source triage into a durable public artifact.
 - [Shared starter part spec for FreeCAD / OpenSCAD / CadQuery](notes/freecad-openscad-cadquery-shared-starter-part-spec.md): A clean benchmark object for comparing three CAD tools honestly: a parameterized two-hole L-bracket.
 - [Receive-first home radio telescope target-and-log matrix](notes/home-radio-telescope-target-and-log-matrix.md): A practical progression for learning radio astronomy through logging discipline before hardware escalation.
@@ -16,9 +17,26 @@ Notes worth keeping. Starter plans worth reusing.
 - [Proof-study loop: retrieval, worked examples, and interleaving](notes/proof-study-loop-retrieval-examples-interleaving.md): If proof study is going badly, the problem is often not ambition alone.
 - [Weekly proof review card](notes/weekly-proof-review-card.md): The proof journal is where mistakes become visible.
 - [Secondary study stream traffic-light card](notes/secondary-study-stream-traffic-light-card.md): Keep, shrink, or pause the second lane based on evidence from the main one.
-- [Packaging a raw research pass into a durable public note — source triage and extraction rules](notes/2026-05-13-research-pass-packaging-research.md): `logs/current-state.md` still had one clearly unfinished knowledge-systems item:.
+- [Packaging a raw research pass into a durable public note — source triage and extraction rules](notes/2026-05-13-research-pass-packaging-research.md): A dated packaging memo on extracting one durable knowledge-systems note from a broader research pass.
 - [Extracting the next public SDR note: acquisition/tracking wins, lock detection waits](notes/2026-05-15-sdr-public-note-extraction-research.md): Choose the next portable SDR claim to publish instead of bundling acquisition, tracking, and ambiguity into one note.
+- [Extracting the next public SDR note: the QPSK 4th-power alias cliff is clean enough to stand alone](notes/2026-05-22-qpsk-alias-cliff-packaging-research.md): Pick one portable warning from the SDR queue and leave the broader synchronization packet alone.
 
+## Generated artifacts
+
+### QPSK 4th-power alias cliff warning card
+
+![QPSK 4th-power alias cliff warning card](assets/qpsk-fourth-power-alias-cliff-card.png)
+
+### Receive-first home radio telescope target-and-log matrix
+
+![Receive-first home radio telescope target-and-log matrix](assets/home-radio-telescope-target-log-matrix.png)
+
+## Rebuild a generated artifact
+
+```bash
+python3 scripts/generate_qpsk_alias_cliff_card.py
+python3 scripts/generate_radio_telescope_target_log_matrix.py
+```
 
 That is the whole idea: keep the sharp bits, skip the mush.
 
