@@ -21,22 +21,6 @@ Notes worth keeping. Starter plans worth reusing.
 - [Extracting the next public SDR note: acquisition/tracking wins, lock detection waits](notes/2026-05-15-sdr-public-note-extraction-research.md): Choose the next portable SDR claim to publish instead of bundling acquisition, tracking, and ambiguity into one note.
 - [Extracting the next public SDR note: the QPSK 4th-power alias cliff is clean enough to stand alone](notes/2026-05-22-qpsk-alias-cliff-packaging-research.md): Pick one portable warning from the SDR queue and leave the broader synchronization packet alone.
 
-## Generated artifacts
-
-### QPSK 4th-power alias cliff warning card
-
-![QPSK 4th-power alias cliff warning card](assets/qpsk-fourth-power-alias-cliff-card.png)
-
-### Receive-first home radio telescope target-and-log matrix
-
-![Receive-first home radio telescope target-and-log matrix](assets/home-radio-telescope-target-log-matrix.png)
-
-## Rebuild a generated artifact
-
-```bash
-python3 scripts/generate_qpsk_alias_cliff_card.py
-python3 scripts/generate_radio_telescope_target_log_matrix.py
-```
 
 That is the whole idea: keep the sharp bits, skip the mush.
 
