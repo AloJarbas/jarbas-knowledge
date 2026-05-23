@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1520" width="1700" height="1520">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#08111b"/>
+    <stop offset="100%" stop-color="#0f1c2b"/>
+  </linearGradient>
+  <style>
+    .title { font: 700 38px Helvetica, Arial, sans-serif; fill: #e2e8f0; }
+    .subtitle { font: 500 19px Helvetica, Arial, sans-serif; fill: #b9cadb; }
+    .label { font: 700 20px Helvetica, Arial, sans-serif; fill: #e2e8f0; }
+    .body { font: 500 16px Helvetica, Arial, sans-serif; fill: #cbd5e1; }
+    .small { font: 500 14px Helvetica, Arial, sans-serif; fill: #cbd5e1; }
+    .tiny { font: 500 13px Helvetica, Arial, sans-serif; fill: #94a3b8; }
+  </style>
+</defs>
+<rect width="1700" height="1520" fill="url(#bg)"/>
+<rect x="26.0" y="26.0" width="1648.0" height="1468.0" rx="28.0" fill="#0d1826" opacity="1.0" stroke="#223246" stroke-width="2.0"/>
+<text x="64.0" y="68.0" class="title" text-anchor="start">A better isolated discriminator can still</text>
+<text x="64.0" y="108.0" class="title" text-anchor="start">make a worse adjacent-channel loop</text>
+<text x="64.0" y="144.0" class="subtitle" text-anchor="start"><tspan x="64.0" dy="0">For the bounded QPSK band-edge test, the GNU Radio / half-sine lane is cleaner on the desired-only waveform,</tspan><tspan x="64.0" dy="24">yet it gets pulled farther once a nearby channel enters the loop. That is why detector ranking cannot stop at isolated-slope plots.</tspan></text>
+<rect x="64.0" y="188.0" width="1210.0" height="654.0" rx="24.0" fill="#122030" opacity="1.0" stroke="#324861" stroke-width="2.0"/>
+<rect x="1298.0" y="188.0" width="338.0" height="654.0" rx="24.0" fill="#122030" opacity="1.0" stroke="#324861" stroke-width="2.0"/>
+<rect x="64.0" y="874.0" width="500.0" height="566.0" rx="22.0" fill="#122030" opacity="1.0" stroke="#324861" stroke-width="2.0"/>
+<rect x="598.0" y="874.0" width="500.0" height="566.0" rx="22.0" fill="#122030" opacity="1.0" stroke="#324861" stroke-width="2.0"/>
+<rect x="1132.0" y="874.0" width="504.0" height="566.0" rx="22.0" fill="#122030" opacity="1.0" stroke="#324861" stroke-width="2.0"/>
+<text x="92.0" y="226.0" class="label" text-anchor="start">Bounded stress result</text>
+<text x="92.0" y="256.0" class="body" text-anchor="start"><tspan x="92.0" dy="0">Mean tail residual CFO after one blockwise loop, one adjacent interferer at 1.0 R_s spacing, 63 taps,</tspan><tspan x="92.0" dy="22">alpha = 0.35, 4 samples/symbol, and one shared settle band at ±0.05 R_s.</tspan></text>
+<rect x="112.0" y="320.0" width="1040.0" height="500.0" rx="24.0" fill="#0f1724" opacity="1.0" stroke="#334155" stroke-width="2.0"/>
+<line x1="132.0" y1="820.0" x2="1132.0" y2="820.0" stroke="#334155" stroke-width="1.6" opacity="0.8" stroke-linecap="round"/>
+<text x="96.0" y="826.0" class="small" text-anchor="end">0.00</text>
+<line x1="132.0" y1="695.0" x2="1132.0" y2="695.0" stroke="#334155" stroke-width="1.6" opacity="0.8" stroke-linecap="round" stroke-dasharray="8 8"/>
+<text x="96.0" y="701.0" class="small" text-anchor="end">0.05</text>
+<line x1="132.0" y1="570.0" x2="1132.0" y2="570.0" stroke="#334155" stroke-width="1.6" opacity="0.8" stroke-linecap="round"/>
+<text x="96.0" y="576.0" class="small" text-anchor="end">0.10</text>
+<line x1="132.0" y1="445.0" x2="1132.0" y2="445.0" stroke="#334155" stroke-width="1.6" opacity="0.8" stroke-linecap="round"/>
+<text x="96.0" y="451.0" class="small" text-anchor="end">0.15</text>
+<line x1="132.0" y1="320.0" x2="1132.0" y2="320.0" stroke="#334155" stroke-width="1.6" opacity="0.8" stroke-linecap="round"/>
+<text x="96.0" y="326.0" class="small" text-anchor="end">0.20</text>
+<text x="124.0" y="350.0" class="small" text-anchor="start">mean tail residual CFO</text>
+<line x1="112.0" y1="338.0" x2="112.0" y2="802.0" stroke="#233246" stroke-width="1.2" opacity="0.7" stroke-linecap="round"/>
+<text x="112.0" y="854.0" class="small" text-anchor="middle">-12 dB</text>
+<line x1="458.7" y1="338.0" x2="458.7" y2="802.0" stroke="#233246" stroke-width="1.2" opacity="0.7" stroke-linecap="round"/>
+<text x="458.7" y="854.0" class="small" text-anchor="middle">-6 dB</text>
+<line x1="805.3" y1="338.0" x2="805.3" y2="802.0" stroke="#233246" stroke-width="1.2" opacity="0.7" stroke-linecap="round"/>
+<text x="805.3" y="854.0" class="small" text-anchor="middle">+0 dB</text>
+<line x1="1152.0" y1="338.0" x2="1152.0" y2="802.0" stroke="#233246" stroke-width="1.2" opacity="0.7" stroke-linecap="round"/>
+<text x="1152.0" y="854.0" class="small" text-anchor="middle">+6 dB</text>
+<text x="632.0" y="888.0" class="body" text-anchor="middle">adjacent channel power relative to desired</text>
+<text x="1022.0" y="683.0" class="small" text-anchor="start">settle band  ±0.05 R_s</text>
+<line x1="760.0" y1="286.0" x2="806.0" y2="286.0" stroke="#60a5fa" stroke-width="6.0" opacity="1.0" stroke-linecap="round"/>
+<text x="818.0" y="292.0" class="small" text-anchor="start">current proxy</text>
+<line x1="990.0" y1="286.0" x2="1036.0" y2="286.0" stroke="#f97316" stroke-width="6.0" opacity="1.0" stroke-linecap="round"/>
+<text x="1048.0" y="292.0" class="small" text-anchor="start">GNU Radio / half-sine</text>
+<polyline fill="none" stroke="#60a5fa" stroke-width="5.0" stroke-linecap="round" stroke-linejoin="round" points="112.0,806.0 458.7,780.3 805.3,723.2 1152.0,659.1"/>
+<circle cx="112.0" cy="806.0" r="7.0" fill="#60a5fa" stroke="#e2e8f0" stroke-width="2.0"/>
+<circle cx="458.7" cy="780.3" r="7.0" fill="#60a5fa" stroke="#e2e8f0" stroke-width="2.0"/>
+<circle cx="805.3" cy="723.2" r="7.0" fill="#60a5fa" stroke="#e2e8f0" stroke-width="2.0"/>
+<circle cx="1152.0" cy="659.1" r="7.0" fill="#60a5fa" stroke="#e2e8f0" stroke-width="2.0"/>
+<polyline fill="none" stroke="#f97316" stroke-width="5.0" stroke-linecap="round" stroke-linejoin="round" points="112.0,793.1 458.7,729.4 805.3,571.3 1152.0,374.9"/>
+<circle cx="112.0" cy="793.1" r="7.0" fill="#f97316" stroke="#e2e8f0" stroke-width="2.0"/>
+<circle cx="458.7" cy="729.4" r="7.0" fill="#f97316" stroke="#e2e8f0" stroke-width="2.0"/>
+<circle cx="805.3" cy="571.3" r="7.0" fill="#f97316" stroke="#e2e8f0" stroke-width="2.0"/>
+<circle cx="1152.0" cy="374.9" r="7.0" fill="#f97316" stroke="#e2e8f0" stroke-width="2.0"/>
+<line x1="805.3" y1="330.0" x2="805.3" y2="810.0" stroke="#facc15" stroke-width="2.5" opacity="1.0" stroke-linecap="round" stroke-dasharray="10 10"/>
+<text x="805.3" y="348.0" class="small" text-anchor="middle">0 dB tipping point</text>
+<text x="1326.0" y="230.0" class="label" text-anchor="start">Desired only</text>
+<text x="1326.0" y="264.0" class="body" text-anchor="start"><tspan x="1326.0" dy="0">proxy: 0.0003 R_s tail pull</tspan><tspan x="1326.0" dy="24">half-sine: 0.0000 R_s tail pull</tspan><tspan x="1326.0" dy="24">both stay inside the settle band</tspan></text>
+<text x="1326.0" y="374.0" class="label" text-anchor="start">At 0 dB adjacent</text>
+<text x="1326.0" y="408.0" class="body" text-anchor="start"><tspan x="1326.0" dy="0">proxy: 0.0387 R_s, 100% inside</tspan><tspan x="1326.0" dy="24">half-sine: 0.0995 R_s, 0% inside</tspan></text>
+<text x="1326.0" y="522.0" class="label" text-anchor="start">Interpretation</text>
+<text x="1326.0" y="556.0" class="body" text-anchor="start"><tspan x="1326.0" dy="0">The half-sine lane fixes</tspan><tspan x="1326.0" dy="22">isolated near-lock slope, but</tspan><tspan x="1326.0" dy="22">this bounded mixed-signal loop</tspan><tspan x="1326.0" dy="22">shows that the same wider</tspan><tspan x="1326.0" dy="22">detector pays more</tspan><tspan x="1326.0" dy="22">adjacent-channel pull.</tspan></text>
+<text x="1326.0" y="720.0" class="tiny" text-anchor="start"><tspan x="1326.0" dy="0">Tail band fractions:</tspan><tspan x="1326.0" dy="18">-12 dB and -6 dB: both lanes stay inside.</tspan><tspan x="1326.0" dy="18">0 dB: proxy stays inside, half-sine does not.</tspan><tspan x="1326.0" dy="18">+6 dB: both lanes fail the same settle band.</tspan></text>
+<text x="90.0" y="910.0" class="label" text-anchor="start">What this note is protecting against</text>
+<text x="90.0" y="954.0" class="body" text-anchor="start"><tspan x="90.0" dy="0">• Ranking detector variants on</tspan><tspan x="90.0" dy="22">isolated-signal slope alone.</tspan></text>
+<text x="90.0" y="1078.0" class="body" text-anchor="start"><tspan x="90.0" dy="0">• Treating a static adjacent-power sweep as</tspan><tspan x="90.0" dy="22">if it were already a loop result.</tspan></text>
+<text x="90.0" y="1202.0" class="body" text-anchor="start"><tspan x="90.0" dy="0">• Calling the wider half-sine lane simply</tspan><tspan x="90.0" dy="22">better or simply worse without stating the</tspan><tspan x="90.0" dy="22">channel context.</tspan></text>
+<text x="624.0" y="910.0" class="label" text-anchor="start">Use it for</text>
+<text x="624.0" y="954.0" class="body" text-anchor="start"><tspan x="624.0" dy="0">• Choosing between detector variants when</tspan><tspan x="624.0" dy="22">one nearby interferer is plausible.</tspan></text>
+<text x="624.0" y="1078.0" class="body" text-anchor="start"><tspan x="624.0" dy="0">• Deciding when the next honest experiment</tspan><tspan x="624.0" dy="22">must be loop-level rather than</tspan><tspan x="624.0" dy="22">detector-only.</tspan></text>
+<text x="624.0" y="1202.0" class="body" text-anchor="start"><tspan x="624.0" dy="0">• Explaining why “better isolated</tspan><tspan x="624.0" dy="22">discriminator” is not the same sentence as</tspan><tspan x="624.0" dy="22">“more robust receiver.”</tspan></text>
+<text x="1158.0" y="910.0" class="label" text-anchor="start">Best next move</text>
+<text x="1158.0" y="954.0" class="body" text-anchor="start"><tspan x="1158.0" dy="0">• Vary one knob only after this: spacing</tspan><tspan x="1158.0" dy="22">first is the cleanest follow-up.</tspan></text>
+<text x="1158.0" y="1078.0" class="body" text-anchor="start"><tspan x="1158.0" dy="0">• Keep the same bounded loop and ask where</tspan><tspan x="1158.0" dy="22">the preference flips back.</tspan></text>
+<text x="1158.0" y="1202.0" class="body" text-anchor="start"><tspan x="1158.0" dy="0">• Do not broaden this into BER, AGC, or a</tspan><tspan x="1158.0" dy="22">full modem benchmark.</tspan></text>
+<text x="64.0" y="1468.0" class="small" text-anchor="start">Source basis: Daniel Estévez on band-edge construction and adjacent-channel cost, GNU Radio FLL docs + source for the actual half-sine loop contract, Wireless Pi for matched-filter intuition, and local evidence from jarbas-sdr-visual-notes.</text>
+<text x="64.0" y="1492.0" class="small" text-anchor="start">This is a bounded receive-side comparison card, not a full synchronization survey or a generic statement about all FLLs.</text>
+</svg>

@@ -1,0 +1,5 @@
+adjacent_level_db,proxy_mean_tail_residual_cfo,proxy_tail_within_threshold_fraction,half_sine_mean_tail_residual_cfo,half_sine_tail_within_threshold_fraction
+-12,0.005585,1.000000,0.010742,1.000000
+-6,0.015889,1.000000,0.036258,1.000000
+0,0.038721,1.000000,0.099488,0.000000
+6,0.064364,0.000000,0.178041,0.000000
