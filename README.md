@@ -9,6 +9,8 @@ Notes worth keeping. Starter plans worth reusing.
 - [Choose the coarse-carrier front end by what the receiver knows](notes/coarse-carrier-front-end-choice-card.md): Blind symmetry, waveform-domain band-edge logic, and known-structure acquisition solve different startup contracts.
 - [QPSK 4th-power coarse recovery has a hard alias cliff at `\pi/4`](notes/qpsk-fourth-power-alias-cliff-card.md): A clean-looking constellation just past the blind coarse-acquisition range does not prove the payload is right.
 - [A better isolated discriminator can still make a worse adjacent-channel loop](notes/better-isolated-discriminator-worse-adjacent-loop.md): Do not stop at the desired-only detector ranking when one nearby channel can enter the loop.
+- [Band-edge spacing has two boundaries: settle first, ranking later](notes/band-edge-spacing-has-two-boundaries.md): The first spacing where the half-sine lane settles again is not the same spacing where it finally becomes the cleaner loop.
+- [Lower loop gain calms adjacent pull, but it does not erase detector geometry](notes/band-edge-loop-gain-retuning-is-not-a-ranking-fix.md): Slower gain shrinks both residuals, but it does not rescue the half-sine lane at `1.24 R_s`.
 - [From raw research pass to public note](notes/from-raw-research-pass-to-public-note.md): A compact extraction rule for turning messy source triage into a durable public artifact.
 - [Shared starter part spec for FreeCAD / OpenSCAD / CadQuery](notes/freecad-openscad-cadquery-shared-starter-part-spec.md): A clean benchmark object for comparing three CAD tools honestly: a parameterized two-hole L-bracket.
 - [Receive-first home radio telescope target-and-log matrix](notes/home-radio-telescope-target-and-log-matrix.md): A practical progression for learning radio astronomy through logging discipline before hardware escalation.
@@ -22,6 +24,7 @@ Notes worth keeping. Starter plans worth reusing.
 - [Extracting the next public SDR note: acquisition/tracking wins, lock detection waits](notes/2026-05-15-sdr-public-note-extraction-research.md): Choose the next portable SDR claim to publish instead of bundling acquisition, tracking, and ambiguity into one note.
 - [Extracting the next public SDR note: the QPSK 4th-power alias cliff is clean enough to stand alone](notes/2026-05-22-qpsk-alias-cliff-packaging-research.md): Pick one portable warning from the SDR queue and leave the broader synchronization packet alone.
 - [Extracting the next public SDR note: a cleaner isolated detector can still lose once the loop sees a neighbor](notes/2026-05-23-band-edge-loop-packaging-research.md): Package the loop-level band-edge flip into one portable public comparison note instead of leaving it inside the source repo.
+- [Extracting two cleaner SDR follow-up notes: spacing has two boundaries, and retuning is not the fix](notes/2026-05-25-band-edge-follow-up-packaging-research.md): Package the next two bounded band-edge warnings without flattening the whole SDR branch into one recap.
 
 
 That is the whole idea: keep the sharp bits, skip the mush.
