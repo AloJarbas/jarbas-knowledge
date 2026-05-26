@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1420" width="1700" height="1420">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#08111b"/>
+    <stop offset="100%" stop-color="#0f1c2b"/>
+  </linearGradient>
+  <style>
+    .title { font: 700 38px Helvetica, Arial, sans-serif; fill: #e2e8f0; }
+    .subtitle { font: 500 19px Helvetica, Arial, sans-serif; fill: #b9cadb; }
+    .label { font: 700 20px Helvetica, Arial, sans-serif; fill: #e2e8f0; }
+    .body { font: 500 16px Helvetica, Arial, sans-serif; fill: #cbd5e1; }
+    .small { font: 500 14px Helvetica, Arial, sans-serif; fill: #cbd5e1; }
+    .tiny { font: 500 13px Helvetica, Arial, sans-serif; fill: #94a3b8; }
+  </style>
+</defs>
+<rect width="1700" height="1420" fill="url(#bg)"/>
+<rect x="26.0" y="26.0" width="1648.0" height="1368.0" rx="28.0" fill="#0d1826" opacity="1.0" stroke="#223246" stroke-width="2.0"/>
+<text x="64.0" y="68.0" class="title" text-anchor="start">Lower loop gain calms adjacent pull,</text>
+<text x="64.0" y="108.0" class="title" text-anchor="start">but it does not erase detector geometry</text>
+<text x="64.0" y="144.0" class="subtitle" text-anchor="start"><tspan x="64.0" dy="0">At the first settle-point spacing of 1.24 R_s, slower gains shrink both residuals,</tspan><tspan x="64.0" dy="24">yet the half-sine lane stays about 15x worse and loses settle margin first as gain rises.</tspan></text>
+<rect x="64.0" y="188.0" width="1086.0" height="920.0" rx="24.0" fill="#122030" opacity="1.0" stroke="#324861" stroke-width="2.0"/>
+<rect x="1178.0" y="188.0" width="458.0" height="920.0" rx="24.0" fill="#122030" opacity="1.0" stroke="#324861" stroke-width="2.0"/>
+<rect x="64.0" y="1134.0" width="1572.0" height="250.0" rx="22.0" fill="#122030" opacity="1.0" stroke="#324861" stroke-width="2.0"/>
+<text x="92.0" y="228.0" class="label" text-anchor="start">Residual pull versus loop gain</text>
+<text x="92.0" y="258.0" class="body" text-anchor="start"><tspan x="92.0" dy="0">Same bounded loop as the spacing note, but spacing held at 1.24 R_s and gain swept from 0.0005 to 0.0240.</tspan><tspan x="92.0" dy="22">This asks whether the early settle boundary is mostly a tuning artifact or still a geometry problem.</tspan></text>
+<rect x="92.0" y="318.0" width="1030.0" height="470.0" rx="24.0" fill="#0f1724" opacity="1.0" stroke="#334155" stroke-width="2.0"/>
+<text x="92.0" y="826.0" class="label" text-anchor="start">Residual ratio stays flat</text>
+<text x="92.0" y="856.0" class="body" text-anchor="start"><tspan x="92.0" dy="0">The ratio is the clean test. If retuning truly fixed the ranking, this line would collapse</tspan><tspan x="92.0" dy="22">toward 1. It does not.</tspan></text>
+<rect x="92.0" y="854.0" width="1030.0" height="214.0" rx="24.0" fill="#0f1724" opacity="1.0" stroke="#334155" stroke-width="2.0"/>
+<line x1="110.0" y1="788.0" x2="1104.0" y2="788.0" stroke="#334155" stroke-width="1.4" opacity="0.8" stroke-linecap="round" stroke-dasharray="8 8"/>
+<text x="76.0" y="793.0" class="small" text-anchor="end">0.00</text>
+<line x1="110.0" y1="631.3" x2="1104.0" y2="631.3" stroke="#334155" stroke-width="1.4" opacity="0.8" stroke-linecap="round" stroke-dasharray="8 8"/>
+<text x="76.0" y="636.3" class="small" text-anchor="end">0.02</text>
+<line x1="110.0" y1="474.7" x2="1104.0" y2="474.7" stroke="#334155" stroke-width="1.4" opacity="0.8" stroke-linecap="round" stroke-dasharray="8 8"/>
+<text x="76.0" y="479.7" class="small" text-anchor="end">0.04</text>
+<line x1="110.0" y1="318.0" x2="1104.0" y2="318.0" stroke="#334155" stroke-width="1.4" opacity="0.8" stroke-linecap="round" stroke-dasharray="8 8"/>
+<text x="76.0" y="323.0" class="small" text-anchor="end">0.06</text>
+<text x="104.0" y="348.0" class="small" text-anchor="start">mean tail residual CFO</text>
+<line x1="110.0" y1="1068.0" x2="1104.0" y2="1068.0" stroke="#334155" stroke-width="1.4" opacity="0.8" stroke-linecap="round" stroke-dasharray="8 8"/>
+<text x="76.0" y="1073.0" class="small" text-anchor="end">14x</text>
+<line x1="110.0" y1="996.7" x2="1104.0" y2="996.7" stroke="#334155" stroke-width="1.4" opacity="0.8" stroke-linecap="round" stroke-dasharray="8 8"/>
+<text x="76.0" y="1001.7" class="small" text-anchor="end">15x</text>
+<line x1="110.0" y1="925.3" x2="1104.0" y2="925.3" stroke="#334155" stroke-width="1.4" opacity="0.8" stroke-linecap="round" stroke-dasharray="8 8"/>
+<text x="76.0" y="930.3" class="small" text-anchor="end">16x</text>
+<line x1="110.0" y1="854.0" x2="1104.0" y2="854.0" stroke="#334155" stroke-width="1.4" opacity="0.8" stroke-linecap="round" stroke-dasharray="8 8"/>
+<text x="76.0" y="859.0" class="small" text-anchor="end">17x</text>
+<text x="104.0" y="884.0" class="small" text-anchor="start">half-sine residual  /  proxy residual</text>
+<line x1="92.0" y1="336.0" x2="92.0" y2="1050.0" stroke="#233246" stroke-width="1.2" opacity="0.7" stroke-linecap="round"/>
+<text x="92.0" y="1100.0" class="small" text-anchor="middle">0.0005</text>
+<line x1="157.7" y1="336.0" x2="157.7" y2="1050.0" stroke="#233246" stroke-width="1.2" opacity="0.7" stroke-linecap="round"/>
+<text x="157.7" y="1100.0" class="small" text-anchor="middle">0.0020</text>
+<line x1="508.4" y1="336.0" x2="508.4" y2="1050.0" stroke="#233246" stroke-width="1.2" opacity="0.7" stroke-linecap="round"/>
+<text x="508.4" y="1100.0" class="small" text-anchor="middle">0.0100</text>
+<line x1="946.7" y1="336.0" x2="946.7" y2="1050.0" stroke="#233246" stroke-width="1.2" opacity="0.7" stroke-linecap="round"/>
+<text x="946.7" y="1100.0" class="small" text-anchor="middle">0.0200</text>
+<line x1="1034.3" y1="336.0" x2="1034.3" y2="1050.0" stroke="#233246" stroke-width="1.2" opacity="0.7" stroke-linecap="round" stroke-dasharray="4 10"/>
+<text x="1034.3" y="1100.0" class="small" text-anchor="middle">0.0220</text>
+<line x1="1122.0" y1="336.0" x2="1122.0" y2="1050.0" stroke="#233246" stroke-width="1.2" opacity="0.7" stroke-linecap="round"/>
+<text x="1122.0" y="1100.0" class="small" text-anchor="middle">0.0240</text>
+<text x="607.0" y="1132.0" class="body" text-anchor="middle">loop gain</text>
+<polyline fill="none" stroke="#60a5fa" stroke-width="5.0" opacity="1.0" stroke-linecap="round" stroke-linejoin="round" points="92.0,787.4 113.9,786.8 135.8,786.2 157.7,785.6 201.6,784.4 245.4,783.3 289.2,782.1 333.1,781.0 420.7,778.7 508.4,776.5 596.0,774.3 727.5,771.0 859.0,767.9 946.7,765.8 1034.3,763.8 1122.0,761.8"/>
+<line x1="774.0" y1="286.0" x2="818.0" y2="286.0" stroke="#60a5fa" stroke-width="6.0" opacity="1.0" stroke-linecap="round"/>
+<text x="830.0" y="291.0" class="small" text-anchor="start">current proxy</text>
+<polyline fill="none" stroke="#f97316" stroke-width="5.0" opacity="1.0" stroke-linecap="round" stroke-linejoin="round" points="92.0,778.9 113.9,769.9 135.8,760.9 157.7,751.9 201.6,733.9 245.4,716.0 289.2,698.1 333.1,680.4 420.7,645.0 508.4,609.9 596.0,575.0 727.5,523.0 859.0,471.6 946.7,437.5 1034.3,403.6 1122.0,369.9"/>
+<line x1="936.0" y1="286.0" x2="980.0" y2="286.0" stroke="#f97316" stroke-width="6.0" opacity="1.0" stroke-linecap="round"/>
+<text x="992.0" y="291.0" class="small" text-anchor="start">GNU Radio / half-sine</text>
+<polyline fill="none" stroke="#f8fafc" stroke-width="4.5" opacity="1.0" stroke-linecap="round" stroke-linejoin="round" points="92.0,986.7 113.9,985.5 135.8,984.4 157.7,983.2 201.6,980.9 245.4,978.6 289.2,976.2 333.1,973.8 420.7,969.0 508.4,964.1 596.0,959.2 727.5,951.6 859.0,943.8 946.7,938.6 1034.3,933.3 1122.0,927.9"/>
+<circle cx="157.7" cy="785.6" r="7.5" fill="#60a5fa" stroke="#e2e8f0" stroke-width="2.0"/>
+<circle cx="157.7" cy="751.9" r="7.5" fill="#f97316" stroke="#e2e8f0" stroke-width="2.0"/>
+<circle cx="157.7" cy="983.2" r="7.5" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2.0"/>
+<circle cx="946.7" cy="765.8" r="7.5" fill="#60a5fa" stroke="#e2e8f0" stroke-width="2.0"/>
+<circle cx="946.7" cy="437.5" r="7.5" fill="#f97316" stroke="#e2e8f0" stroke-width="2.0"/>
+<circle cx="946.7" cy="938.6" r="7.5" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2.0"/>
+<circle cx="1034.3" cy="763.8" r="7.5" fill="#60a5fa" stroke="#e2e8f0" stroke-width="2.0"/>
+<circle cx="1034.3" cy="403.6" r="7.5" fill="#f97316" stroke="#e2e8f0" stroke-width="2.0"/>
+<circle cx="1034.3" cy="933.3" r="7.5" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2.0"/>
+<line x1="1034.3" y1="336.0" x2="1034.3" y2="1050.0" stroke="#f8fafc" stroke-width="2.2" opacity="0.9" stroke-linecap="round" stroke-dasharray="10 8"/>
+<rect x="952.3" y="454.0" width="164.0" height="58.0" rx="14.0" fill="#17283b" opacity="1.0" stroke="#94a3b8" stroke-width="1.6"/>
+<text x="1034.3" y="482.0" class="small" text-anchor="middle"><tspan x="1034.3" dy="0">0.022</tspan><tspan x="1034.3" dy="18">first settle loss</tspan></text>
+<rect x="1184.0" y="316.0" width="410.0" height="154.0" rx="18.0" fill="#0f1724" opacity="1.0" stroke="#334155" stroke-width="2.0"/>
+<text x="1204.0" y="350.0" class="label" text-anchor="start">gain 0.002</text>
+<text x="1204.0" y="384.0" class="body" text-anchor="start">proxy 0.00030 / 100%</text>
+<text x="1204.0" y="414.0" class="body" text-anchor="start">half-sine 0.00461 / 100%</text>
+<text x="1204.0" y="444.0" class="body" text-anchor="start">ratio 15.2x</text>
+<rect x="1184.0" y="488.0" width="410.0" height="154.0" rx="18.0" fill="#0f1724" opacity="1.0" stroke="#334155" stroke-width="2.0"/>
+<text x="1204.0" y="522.0" class="label" text-anchor="start">gain 0.020</text>
+<text x="1204.0" y="556.0" class="body" text-anchor="start">proxy 0.00283 / 100%</text>
+<text x="1204.0" y="586.0" class="body" text-anchor="start">half-sine 0.04475 / 100%</text>
+<text x="1204.0" y="616.0" class="body" text-anchor="start">ratio 15.8x</text>
+<rect x="1184.0" y="660.0" width="410.0" height="154.0" rx="18.0" fill="#0f1724" opacity="1.0" stroke="#334155" stroke-width="2.0"/>
+<text x="1204.0" y="694.0" class="label" text-anchor="start">gain 0.022</text>
+<text x="1204.0" y="728.0" class="body" text-anchor="start">proxy 0.00309 / 100%</text>
+<text x="1204.0" y="758.0" class="body" text-anchor="start">half-sine 0.04907 / 62.5%</text>
+<text x="1204.0" y="788.0" class="body" text-anchor="start">ratio 15.9x</text>
+<text x="1188.0" y="860.0" class="label" text-anchor="start">Portable readout</text>
+<text x="1188.0" y="890.0" class="body" text-anchor="start"><tspan x="1188.0" dy="0">Lower gain really does calm both loops.</tspan><tspan x="1188.0" dy="22">But the ratio barely moves, which means</tspan><tspan x="1188.0" dy="22">the retuning mostly rescales the same</tspan><tspan x="1188.0" dy="22">geometry penalty instead of fixing the</tspan><tspan x="1188.0" dy="22">ranking.</tspan></text>
+<text x="1188.0" y="1018.0" class="label" text-anchor="start">Decision rule</text>
+<text x="1188.0" y="1048.0" class="body" text-anchor="start"><tspan x="1188.0" dy="0">If the half-sine lane already lost badly</tspan><tspan x="1188.0" dy="22">at 1.24 R_s, turning the loop down is not</tspan><tspan x="1188.0" dy="22">the main cure. Change the spacing or the</tspan><tspan x="1188.0" dy="22">detector geometry before you expect gain</tspan><tspan x="1188.0" dy="22">alone to rescue the comparison.</tspan></text>
+<text x="92.0" y="1170.0" class="label" text-anchor="start">What this card protects against</text>
+<text x="92.0" y="1200.0" class="body" text-anchor="start"><tspan x="92.0" dy="0">Do not explain the 1.24 R_s result away as a simple loop-tuning artifact. A slower loop helps both designs, but the</tspan><tspan x="92.0" dy="22">half-sine lane stays roughly 15x worse and gives up full settle margin first as the gain comes back up.</tspan></text>
+<text x="92.0" y="1300.0" class="label" text-anchor="start">Source basis</text>
+<text x="92.0" y="1330.0" class="tiny" text-anchor="start"><tspan x="92.0" dy="0">External framing comes from Daniel Estévez plus the GNU Radio FLL Band-Edge wiki and source,</tspan><tspan x="92.0" dy="20">with Wireless Pi kept only for the acquisition-versus-tracking loop-bandwidth reminder. The</tspan><tspan x="92.0" dy="20">public values here are extracted from</tspan><tspan x="92.0" dy="20">jarbas-sdr-visual-notes/notes/band-edge-loop-gain-retuning.md and its dated 2026-05-24 research</tspan><tspan x="92.0" dy="20">memo.</tspan></text>
+</svg>
