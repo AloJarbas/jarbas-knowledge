@@ -6,6 +6,7 @@ Notes worth keeping. Starter plans worth reusing.
 - [Flat-top window amplitude decision card](notes/flat-top-window-amplitude-decision-card.md): Use a flat-top window when the job is **amplitude honesty**, not narrow-bin resolution.
 - [Coherent gain and ENBW checklist](notes/coherent-gain-and-enbw-checklist.md): A short measurement checklist for tone-amplitude correction, noise-floor correction, and not mixing the two.
 - [Carrier recovery is two jobs: acquisition first, tracking second](notes/carrier-recovery-acquisition-tracking-card.md): After timing lock, use coarse acquisition to get close before asking decision-directed tracking to stay locked.
+- [Carrier lock handoff needs two tests: settled first, close second](notes/carrier-lock-handoff-needs-two-tests.md): A receiver can stop the visible spin before it is actually close enough to trust decision-directed tracking.
 - [Choose the coarse-carrier front end by what the receiver knows](notes/coarse-carrier-front-end-choice-card.md): Blind symmetry, waveform-domain band-edge logic, and known-structure acquisition solve different startup contracts.
 - [QPSK 4th-power coarse recovery has a hard alias cliff at `\pi/4`](notes/qpsk-fourth-power-alias-cliff-card.md): A clean-looking constellation just past the blind coarse-acquisition range does not prove the payload is right.
 - [A better isolated discriminator can still make a worse adjacent-channel loop](notes/better-isolated-discriminator-worse-adjacent-loop.md): Do not stop at the desired-only detector ranking when one nearby channel can enter the loop.
@@ -25,6 +26,7 @@ Notes worth keeping. Starter plans worth reusing.
 - [Extracting the next public SDR note: the QPSK 4th-power alias cliff is clean enough to stand alone](notes/2026-05-22-qpsk-alias-cliff-packaging-research.md): Pick one portable warning from the SDR queue and leave the broader synchronization packet alone.
 - [Extracting the next public SDR note: a cleaner isolated detector can still lose once the loop sees a neighbor](notes/2026-05-23-band-edge-loop-packaging-research.md): Package the loop-level band-edge flip into one portable public comparison note instead of leaving it inside the source repo.
 - [Extracting two cleaner SDR follow-up notes: spacing has two boundaries, and retuning is not the fix](notes/2026-05-25-band-edge-follow-up-packaging-research.md): Package the next two bounded band-edge warnings without flattening the whole SDR branch into one recap.
+- [Extracting the next public SDR note: carrier lock handoff survives as a small state machine](notes/2026-05-27-carrier-lock-handoff-packaging-research.md): Keep the public version formula-light and centered on the handoff rule instead of turning it into a threshold cookbook.
 
 
 That is the whole idea: keep the sharp bits, skip the mush.
