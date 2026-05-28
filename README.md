@@ -27,6 +27,7 @@ Notes worth keeping. Starter plans worth reusing.
 - [Extracting the next public SDR note: a cleaner isolated detector can still lose once the loop sees a neighbor](notes/2026-05-23-band-edge-loop-packaging-research.md): Package the loop-level band-edge flip into one portable public comparison note instead of leaving it inside the source repo.
 - [Extracting two cleaner SDR follow-up notes: spacing has two boundaries, and retuning is not the fix](notes/2026-05-25-band-edge-follow-up-packaging-research.md): Package the next two bounded band-edge warnings without flattening the whole SDR branch into one recap.
 - [Extracting the next public SDR note: carrier lock handoff survives as a small state machine](notes/2026-05-27-carrier-lock-handoff-packaging-research.md): Keep the public version formula-light and centered on the handoff rule instead of turning it into a threshold cookbook.
+- [SDR packaging re-check: no new compact public note survived, so the queue fell through again](notes/2026-05-28-sdr-packaging-fallthrough-research.md): Re-check the remaining SDR candidates, reject the ones that still need too much branch memory, and explicitly fall through to the next repo.
 
 
 That is the whole idea: keep the sharp bits, skip the mush.
