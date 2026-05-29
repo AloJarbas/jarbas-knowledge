@@ -28,6 +28,7 @@ Notes worth keeping. Starter plans worth reusing.
 - [Extracting two cleaner SDR follow-up notes: spacing has two boundaries, and retuning is not the fix](notes/2026-05-25-band-edge-follow-up-packaging-research.md): Package the next two bounded band-edge warnings without flattening the whole SDR branch into one recap.
 - [Extracting the next public SDR note: carrier lock handoff survives as a small state machine](notes/2026-05-27-carrier-lock-handoff-packaging-research.md): Keep the public version formula-light and centered on the handoff rule instead of turning it into a threshold cookbook.
 - [SDR packaging re-check: no new compact public note survived, so the queue fell through again](notes/2026-05-28-sdr-packaging-fallthrough-research.md): Re-check the remaining SDR candidates, reject the ones that still need too much branch memory, and explicitly fall through to the next repo.
+- [SDR packaging pass: adjacent-power shelf survives, two nearby candidates still do not](notes/2026-05-29-band-edge-adjacent-power-packaging-research.md): `logs/current-state.md` still says the queue starts with the public SDR packaging lane.
 
 
 That is the whole idea: keep the sharp bits, skip the mush.
